@@ -16,7 +16,7 @@ You need to create a `React` application that:
 ## Design 
 No guidelines here, but we'd love to be impressed 😁.
 
-## Tecnologies
+## Technologies
 Any of the following are allowed: React.js, JavaScript, Typescript, HTML, CSS
 
 ## Submission Guidelines
