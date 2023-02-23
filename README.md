@@ -1,27 +1,24 @@
-# Ninebarc Frontend coding challenge
-Thanks for your interest in Ninebarc and for taking the time to do our coding challenge. We hope you enjoy developing it as much as we did :)
+## Objective
+Build a simple web application that allows users to search for books using the Open Library API and display the search results. Users should be able to select a book from the search results to view more details about the book.
 
-## Background
-A lot of people come to Berlin for short trips and holiday. They often don’t know how to decide what ticket to get in order to use the city’s public transport. There are several ticket options based on the amount of stations per trip, how much time the person is staying in the city, their age and so on.
+## Requirements
+- Use React and Redux to build the application.
+- Use the GoodReads API to search for books. The API documentation can be found here: `https://www.goodreads.com/api/index`. You will need to create a GoodReads account to get an API key: Navigate to `https://www.goodreads.com/api/keys` and apply for an API key. For “Application name” and “Company name” feel free to just write whatever you want and no need to include an application URL, callback URL, or support URL. You should then see your API key. (For this project, we’ll care only about the “key”, not the “secret”.)
+- Display the search results as a list of books with their titles, authors, cover images and ratings.
+- When a user clicks on a book from the search results, display more details about the book, including its title, author, cover image, publication date, and a brief description.
+- Write unit tests for your components using Jest.
 
-## Task
-You need to create a simple web application to help decide the user what BVG Ticket to buy.
+## Evaluation Criteria
+- The code should be well-organized and maintainable.
+- The application should be responsive and easy to use.
+- The Redux store should be used to manage the state of the application.
+- The application should handle errors gracefully and display meaningful error messages to the user.
+- The unit tests should be comprehensive and cover all important functionality.
 
-### Frontend
-You need to create a `React` application that:
-- Asks the user for their name.
-- Starts asking the user a question (it could be `How much time are you planning on staying in the city` but we leave it up to you how many and what kind of questions to ask), and based on the response it will ask another relevant question. This will simulate a simple `decision tree`.
-- At the end of the questionnaire, the application should recommend a ticket to the user in a final page that will also summarize the questions asked previously.
+## Bonus
+- Allow users to add books to a "favorites" list.
+- Add pagination to the search results if there are more than 20 results.
+- Use TailwindCSS to style the application.
 
-## Design 
-No guidelines here, but we'd love to be impressed 😁.
-
-## Technologies
-Any of the following are allowed: React.js, JavaScript, Typescript, HTML, CSS
-
-## Submission Guidelines
-- Submit your project in a public Github repo and send us the `url` 🙂.
-- Include a README.md with instructions on how to run it, together with any additional information you consider appropriate (assumptions, design decisions made, etc.)
-
-### References
-If you want to know more about BVG Tickts, you can visit this [link](https://www.bvg.de/en/Tickets/Other-ways-to-buy/Ticket-App).
+## Submission
+- The interviewee should provide a GitHub repository containing the code for the application, along with instructions for running the application locally and running the tests. The repository should also include a README.md file with a brief overview of the application and any additional notes or comments the interviewee would like to provide.
